@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo"><img src = "assets/marmeto.svg"></a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="user">
+        <img src="assets/search.svg" alt="User Avatar">
+        <img src="assets/heart.svg" alt="heart">
+        <img src="assets/cart-logo.svg" alt="cart-logo">
+      </div>
+    </div>
+  </header>
+
+  <!-- Cart Page -->
+
+  <div class="Home-logo">
+    <img src="assets/home.svg" alt="">
+
+  </div>
+  <main class="cart-page-container">
+    <!-- Cart Items -->
+     <div class="cart">
+    <div class="cart-items">
+      <h1>Cart</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="product">
+              <img src="sofa.jpg" alt="Asgaard Sofa">
+              <span>Asgaard Sofa</span>
+            </td>
+            <td>Rs. 250,000.00</td>
+            <td>
+              <input type="number" value="1" min="1">
+            </td>
+            <td>Rs. 250,000.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Cart Totals -->
+    <div class="cart-totals">
+      <h2>Cart Totals</h2>
+      <div class="totals">
+        <div>
+          <span>Subtotal:</span>
+          <span>Rs. 250,000.00</span>
+        </div>
+        <div>
+          <span>Total:</span>
+          <span>Rs. 250,000.00</span>
+        </div>
+      </div>
+      <button class="checkout-btn">Check Out</button>
+    </div>
+</div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-icons">
+      <div class="icon">
+        <img src="assets/trophy 1.svg" alt="High Quality">
+        <span>High Quality</span>
+      </div>
+      <div class="icon">
+        <img src="assets/guarantee.svg" alt="Warranty">
+        <span>Warranty Protection</span>
+      </div>
+      <div class="icon">
+        <img src="assets/shipping.svg" alt="Free Shipping">
+        <span>Free Shipping</span>
+      </div>
+      <div class="icon">
+        <img src="assets/customer-support.svg" alt="24/7 Support">
+        <span>24/7 Support</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
